@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+:root {
+  --title-xl: 56px;
+  --title-l: 40px;
+  --title-m: 32px;
+  --title-s: 24px;
+  --body-m: 18px;
+  --body-s: 16px;
+  --color-primary: #13183f;
+  --color-text: #83869a;
+  --color-secundary: #f74780;
+  --color-secundary-hover: #ffa7c3;
+  --color-button: #666ca3;
+  --white: white;
+  --gradient-primary: linear-gradient(#ff6f48, #f02aa6);
+  --gradient-secundary: linear-gradient(#4851ff, #f02aa6);
+  --gradient-terciary: linear-gradient(white 50%, #f0f1ff);
+  --border-radius-primary: 50px;
+  --border-radius-card: 12px;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -22,6 +42,184 @@ a {
 }
 
 body {
+  position: relative;
+  max-width: 1440px;
   margin: 0;
-  background-image: url(../assets/images/sleep-cat.jpeg);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-image: var(--gradient-terciary);
+}
+
+/* Este mediaquery es para tablet */
+@media screen and (min-width: 768px) {
+  body {
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+/* Este mediaquery es para escritorio */
+@media screen and (min-width: 1024px) {
+  body {
+    padding: 2.5rem 10.3125rem;
+  }
+}
+
+/* Este mediaquery es para móvil */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 38px;
+  padding: 1rem;
+}
+
+/* Este mediaquery es para tablet */
+@media screen and (min-width: 768px) {
+  .header {
+    margin-bottom: 100px;
+  }
+}
+
+/* Este mediaquery es para móvil */
+.button {
+  color: var(--white);
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-primary);
+  font-size: var(--body-s);
+  padding: 14px 24px;
+  font-weight: 700;
+}
+
+/* Este mediaquery es para móvil */
+.section {
+  padding: 1rem;
+}
+
+/* Este mediaquery es para tablet */
+@media screen and (min-width: 768px) {
+  .section {
+    display: flex;
+    width: 50%;
+    margin-bottom: 94px;
+  }
+}
+
+/* Este mediaquery es para escritorio */
+@media screen and (min-width: 1024px) {
+  .section {
+    width: 30%;
+    margin-bottom: 46px;
+  }
+}
+
+/* Este mediaquery es para móvil */
+.title {
+  font-size: var(--title-l);
+  color: var(--color-primary);
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+/* Este mediaquery es para móvil */
+.text {
+  font-size: var(--body-s);
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 38px;
+}
+
+/* Este mediaquery es para móvil */
+.button--primary-gradient {
+  background-image: var(--gradient-primary);
+  display: inline-block;
+  margin-bottom: 45px;
+}
+
+/* Este mediaquery es para tablet */
+@media screen and (min-width: 768px) {
+  .image {
+    max-width: 640px;
+    position: absolute;
+    width: 640px;
+    right: -250px;
+    top: -35px;
+    flex-shrink: 0;
+  }
+}
+
+/* Este mediaquery es para escritorio */
+@media screen and (min-width: 1024px) {
+  .image {
+    max-width: 800px;
+    width: 800px;
+    right: -120px;
+    top: 10px;
+  }
+}
+
+/* Este mediaquery es para móvil */
+.section-cards {
+  margin-bottom: 80px;
+  padding: 1rem;
+}
+
+/* Este mediaquery es para móvil */
+.section-cards__title {
+  background-image: var(--gradient-primary);
+  color: var(--white);
+  font-size: var(--title-s);
+  padding: 35px;
+  border-radius: var(--border-radius-card);
+  line-height: 32px;
+  margin-bottom: 45px;
+}
+
+/* Este mediaquery es para móvil */
+.card {
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--border-radius-card);
+  padding: 35px;
+  margin-bottom: 45px;
+}
+
+/* Este mediaquery es para móvil */
+.card__icon {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  margin-bottom: 24px;
+}
+
+/* Este mediaquery es para móvil */
+.card__title {
+  font-size: var(--body-m);
+  color: var(--color-primary);
+  font-weight: 800;
+}
+
+/* Este mediaquery es para móvil */
+.card__link {
+  font-weight: 700;
+  font-size: var(--body-m);
+  color: var(--color-secundary);
+}
+
+/* Este mediaquery es para móvil */
+.card__link:hover {
+  color: var(--color-secundary-hover);
+}
+
+/* Este mediaquery es para móvil */
+.footer {
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.25rem 1rem;
+}
+
+/* Este mediaquery es para móvil */
+.button--footer {
+  background-image: var(--gradient-secundary);
 }
