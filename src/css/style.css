@@ -163,6 +163,26 @@ body {
   padding: 1rem;
 }
 
+/* Este mediaquery es para tablet */
+@media screen and (min-width: 768px) {
+  .section-cards{
+    display: grid;
+    grid-template-rows: 283px 283px 283px;
+    grid-template-columns: 340px 340px;
+    gap: 2rem;
+  }
+}
+
+/* Este mediaquery es para escritorio */
+@media screen and (min-width: 1024px) {
+  .section-cards{
+    display: grid;
+    grid-template-rows: 346px 346px;
+    grid-template-columns: 350px 350px 350px;
+    gap: 3.5rem;
+  }
+}
+
 /* Este mediaquery es para móvil */
 .section-cards__title {
   background-image: var(--gradient-primary);
