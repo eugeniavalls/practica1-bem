@@ -4,11 +4,12 @@
 
 ## Ejemplo en vivo
 
-- [URL-de-github-pages-de-este-proyecto](URL-de-github-pages-de-este-proyecto)
+- [Vista en vivo](URL-de-github-pages-de-este-proyecto)
 
 ## Descripción 📑
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum et esse, ipsum ipsam debitis ducimus dolorum placeat? Consectetur, soluta vero. Accusamus iure est pariatur, doloremque nam cumque natus unde adipisci laborum ut. At id sapiente consequatur earum. Magnam doloribus, voluptate zumito doloremque obcaecati vel excepturi numquam cupiditate ipsam quisquam!
+Ejercicio para poner en práctica la metodología BEM. Utilización de display y position.
+Realización de la práctica en responsive para ordenador y móvil.
 
 ## Tecnologías 🛠
 
@@ -31,10 +32,10 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ## Autor ✒️
 
-**TU NOMBRE**
+**EUGENIA VALLS ALFARO**
 
-- [micorreo@midominio.com](micorreo@midominio.com)
-- [LinkedIn](https://www.linkedin.com/in/tu-url-de-linkedin/)
+- [Correo electrónico](e.vallsalfaro@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/eugenia-valls-alfaro-540b1a20a)
 - [Porfolio web](https://tu-dominio.com/)
 
 ## Instalación
